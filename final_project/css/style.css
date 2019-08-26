@@ -1,0 +1,14 @@
+#homepage {
+  display: block;
+  margin: 40px auto;
+}
+
+body {
+  color: white;
+  background-color: black;
+  font-family: "Noto Sans", sans-serif;
+}
+
+h2 {
+  color: #ffff66;
+}
