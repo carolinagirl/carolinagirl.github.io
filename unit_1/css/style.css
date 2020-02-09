@@ -1,7 +1,36 @@
-body {
-  background-color: black;
+h1 {
+  color: #33A2CC;
+  text-align: right;
+  font-size: 100px;
 }
 
-h1, p {
-  color: gold;
+hr{
+  height: 100px;
+  color: #FFAFA8;
+  background-color: #FFAFA8;
+}
+
+div {
+  width: 700px;
+  height: 700px;
+  border: 2px solid black;
+  margin: 20px;
+}
+
+#photography {
+  float: right;
+}
+
+/* #topbar{
+  width:100%;
+  height:100px;
+  background-color: #FFAFA8;
+  border: none;
+} */
+
+a {
+  font-size: 24px;
+  text-decoration: none;
+  margin: 20px;
+  color: #33A2CC;
 }
