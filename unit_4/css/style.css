@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Archivo+Black|Josefin+Slab&display=swap');
 
 h1 {
-  color: #1c5d99;
+  color: #5171A5;
   text-align: left;
-  font-size: 100px;
+  font-size: 120px;
   font-family: 'Archivo Black', sans-serif;
 }
 
 hr{
   height: 50px;
-  color: #9B6A6C;
-  background-color: #9B6A6C;
+  color: #D16666;
+  background-color: #D16666;
 }
 
 /* div {
@@ -24,7 +24,7 @@ hr{
   /* float: right; */
   text-align: center;
   font-size: 160px;
-  color: #FFFFFF;
+  color: #FCF7FF;
   font-family: 'Archivo Black', sans-serif;
 }
 
@@ -62,11 +62,16 @@ hr{
 a {
   font-size: 24px;
   margin: 20px;
-  color: #23395b;
+  color: #2C4251;
+}
+
+a:hover {
+  color: #C1C1C1;
 }
 
 footer {
-  background: #8ea8c3;
+  background: #000000;
+  color: white;
   padding: 20px;
 }
 
