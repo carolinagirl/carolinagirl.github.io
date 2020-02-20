@@ -59,6 +59,7 @@ nav a:hover {
   font-size: 100px;
   color: #FCF7FF;
   font-family: 'Archivo Black', sans-serif;
+  float: left;
 }
 
 #design {
@@ -111,5 +112,5 @@ footer {
   padding: 20px;
   border: 1px black solid;
   background-color: #424B54;
-  /* clear: both; */
+  clear: both;
 }
