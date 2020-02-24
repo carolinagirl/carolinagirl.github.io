@@ -1,0 +1,117 @@
+/* Color Palette
+#424B54 - dark green
+#93A8AC - light green
+#FFFFFF - light cream
+#E2B4BD - light red
+#9B6A6C - red
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Crimson+Text&display=swap');
+
+header {
+  background-color: #FFFFFF;
+  padding: 20px;
+}
+
+h1 {
+  color: #93A8AC;
+  font-size: 80px;
+  font-family: 'Archivo Black', sans-serif;
+  text-align: right;
+}
+
+img {
+  float: left;
+  margin: 10px;
+  max-width: 100%;
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  filter:grayscale(100%);
+}
+
+/* hr{
+  height: 50px;
+  color: #9B6A6C;
+  background-color: #9B6A6C;
+} */
+
+nav {
+  text-align: right;
+  /* padding: 10px; */
+  padding: 20px;
+  float: left;
+}
+
+nav a {
+  font-size: 24px;
+  margin: 20px;
+  color: #2C4251;
+  text-decoration: none;
+  display: block;
+  width: 20%;
+}
+
+nav a:hover {
+  color: #E2B4BD;
+}
+
+nav a:active {
+  color: #E2B4BD;
+  text-decoration: underline;
+}
+
+.photography {
+  /* float: right; */
+  text-align: center;
+  font-size: 100px;
+  color: #FCF7FF;
+  font-family: 'Archivo Black', sans-serif;
+  float: left;
+}
+
+#design {
+  text-align: center;
+  font-size: 160px;
+  font-family: 'Archivo Black', sans-serif;
+  /* color: #9B6A6C; */
+  /* float: left; */
+}
+
+#centered-1 {
+  position: absolute;
+  top: 80%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
+.wrapper {
+  background-color: #93A8AC ;
+  padding: 20px;
+}
+
+.main {
+  padding: 20px;
+  /* float: right; */
+  width: 80%;
+  display: grid;
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-cap: 1em;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  height: 0;
+  font-size: 0;
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+footer {
+  color: white;
+  padding: 20px;
+  background-color: #424B54;
+}
