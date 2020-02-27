@@ -38,12 +38,12 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 2em;
 }
 
 
 h2 {
-    font-size: 40px;
+    font-size: 1em;
     margin-top: 0;
 }
 h3 {
@@ -90,7 +90,7 @@ a:hover {
 /* Header and footer
 -----------------------------*/
 header, footer {
-    background:#424B54;
+    background:#373F51;
     color:#FFFFFF;
 }
 
@@ -145,7 +145,7 @@ nav a {
 /* Work Experience
 -----------------------------*/
 .work{
-    background:#D8DBE2;
+    background:#A9BCD0;
 }
 h3 ~ p {
     margin: 0;

@@ -19,8 +19,13 @@ html {
   box-sizing: border-box;
 }
 
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   font-size: 16px;
+  font-family: 'Crimson Text', serif;
   margin: 0px;
   padding: 0px;
 }
@@ -32,7 +37,7 @@ header {
 
 h1 {
   color: #A9BCD0;
-  font-size: 5em;
+  font-size: 4em;
   font-family: 'Archivo Black', sans-serif;
   text-align: center;
   margin-top: 0;
@@ -49,6 +54,7 @@ img {
   float: left;
   margin: .5em;
   max-width: 100%;
+  border-radius: 1em;
 }
 
 img:hover {
@@ -61,7 +67,8 @@ nav {
   background-color: #FFCAAF;
   text-align: center;
   padding: 1em;
-  /* position: fixed; */
+  position: fixed;
+  width: 100%;
 }
 
 nav a {
@@ -81,15 +88,9 @@ nav a:active {
   text-decoration: underline;
 }
 
-.photography {
-  color: #373F51;
-  font-family: 'Archivo Black', sans-serif;
-  float: left;
-}
-
-#design {
+/* #design {
   text-align: center;
-  font-family: 'Archivo Black', sans-serif;
+  font-family: 'Archivo Black', sans-serif; */
   /* color: #9B6A6C; */
   /* float: left; */
 }
@@ -104,11 +105,17 @@ nav a:active {
 #logo {
   float: none;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 #logo:hover {
   transform: none;
   filter: none;
+}
+
+#noscale {
+  transform: scale(1.0);
+  filter:none;
 }
 
 .center {
@@ -127,10 +134,17 @@ nav a:active {
   padding: 2em;
   width: 90%;
   position: relative;
+  /* vertical-align: middle; */
   /* left: 50%; */
   /* display: grid; */
   /* grid-template-columns: repeat(3, 1fr); */
   /* grid-cap: 1em; */
+}
+
+.photography {
+  color: #373F51;
+  font-family: 'Archivo Black', sans-serif;
+  float: left;
 }
 
 .clearfix:after {
@@ -145,6 +159,8 @@ nav a:active {
 footer {
   color: white;
   padding: 20px;
+  text-align: center;
+  font-family: 'Crimson Text', serif;
   background-color: #373F51;
   margin: 0 auto;
 }
