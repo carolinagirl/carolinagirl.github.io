@@ -35,13 +35,13 @@ header {
   margin: 0 auto;
 }
 
-h1 {
+/* h1 {
   color: #A9BCD0;
   font-size: 4em;
   font-family: 'Archivo Black', sans-serif;
   text-align: center;
   margin-top: 0;
-}
+} */
 
 p {
   width: 70%;
@@ -64,10 +64,9 @@ img:hover {
 }
 
 nav {
-  background-color: #FFCAAF;
+  /* background-color: #FFCAAF; */
   text-align: center;
-  padding: 1em;
-  position: fixed;
+  padding: .5em;
   width: 100%;
 }
 
@@ -88,13 +87,6 @@ nav a:active {
   text-decoration: underline;
 }
 
-/* #design {
-  text-align: center;
-  font-family: 'Archivo Black', sans-serif; */
-  /* color: #9B6A6C; */
-  /* float: left; */
-}
-
 #centered-1 {
   position: absolute;
   top: 80%;
@@ -104,8 +96,9 @@ nav a:active {
 
 #logo {
   float: none;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border-radius: none;
 }
 
 #logo:hover {
@@ -116,6 +109,11 @@ nav a:active {
 #noscale {
   transform: scale(1.0);
   filter:none;
+}
+
+.cur-active-link {
+  color: #A9BCD0;
+  text-decoration: underline;
 }
 
 .center {

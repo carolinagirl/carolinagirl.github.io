@@ -11,6 +11,8 @@
 
 /* apply a natural box layout model to all elements, but allowing components to change */
 
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Crimson+Text&display=swap');
+
 html {
   box-sizing: border-box;
 }

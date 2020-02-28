@@ -2,20 +2,16 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <title>LeighAnn Brown's Portfolio</title>
   </head>
   <body>
       <header>
-        <nav>
-          <a href="index.html">home</a>
-          <a href="design.html">design</a>
-          <a href="resume.html">resume</a>
-        </nav>
 
-        <img id="logo" class="center" src="images/LABrown_logo-2.png" alt="LABrown logo">
-          <h1>LeighAnn Brown</h1>
+        <img id="logo" class="center" src="images/LABrown_logo-5.png" alt="LABrown logo">
+          <!-- <h1>LeighAnn Brown</h1>
           <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
           when an unknown printer took a galley of type and scrambled it to make a type
@@ -23,7 +19,12 @@
           electronic typesetting, remaining essentially unchanged. It was popularised in
           the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
           and more recently with desktop publishing software like Aldus PageMaker including
-          versions of Lorem Ipsum. </p>
+          versions of Lorem Ipsum. </p> -->
+          <nav>
+            <a class="cur-active-link" href="index.html">home</a>
+            <a href="design.html">design</a>
+            <a href="resume.html">resume</a>
+          </nav>
         </header>
 
 
@@ -31,8 +32,8 @@
 
         <div class="main clearfix">
           <div class="photography">
-            <img src="images/Disney Cruise 2017-110_small.jpg" onclick="openModal();currentSlide(1)" alt="Castaway Cay" title="Disney Castaway Cay">
-            <img src="images/DSC00007_1_small.jpg" onclick="openModal();currentSlide(2)" alt="beach" title="beach water">
+            <a href="images/Disney Cruise 2017-110_web.jpg"><img src="images/Disney Cruise 2017-110_small.jpg" onclick="openModal();currentSlide(1)" alt="Castaway Cay" title="Disney Castaway Cay"></a>
+            <a href="images/DSC00007_1_web.jpg"><img src="images/DSC00007_1_small.jpg" onclick="openModal();currentSlide(2)" alt="beach" title="beach water"></a>
             <img src="images/IMG_0018_small.jpg" onclick="openModal();currentSlide(3)" alt="sunset" title="The Outerbanks Sunset">
             <img src="images/IMG_0527_small.jpg" onclick="openModal();currentSlide(4)" alt="arches" title="Mexico Arches">
             <img src="images/IMG_2303_small.jpg" onclick="openModal();currentSlide(5)" alt="palm trees" title="Beach with Palm Trees">
