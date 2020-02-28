@@ -2,24 +2,15 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="lightbox/javascript" src="js/lightbox.js"></script>
 
     <title>LeighAnn Brown's Portfolio</title>
   </head>
   <body>
       <header>
-
         <img id="logo" class="center" src="images/LABrown_logo-5.png" alt="LABrown logo">
-          <!-- <h1>LeighAnn Brown</h1>
-          <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-          when an unknown printer took a galley of type and scrambled it to make a type
-          specimen book. It has survived not only five centuries, but also the leap into
-          electronic typesetting, remaining essentially unchanged. It was popularised in
-          the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-          and more recently with desktop publishing software like Aldus PageMaker including
-          versions of Lorem Ipsum. </p> -->
           <nav>
             <a class="cur-active-link" href="index.html">home</a>
             <a href="design.html">design</a>
@@ -32,9 +23,9 @@
 
         <div class="main clearfix">
           <div class="photography">
-            <a href="images/Disney Cruise 2017-110_web.jpg"><img src="images/Disney Cruise 2017-110_small.jpg" onclick="openModal();currentSlide(1)" alt="Castaway Cay" title="Disney Castaway Cay"></a>
+            <a href="images/Disney Cruise 2017-110_web.jpg"><img src="images/Disney Cruise 2017-110_small.jpg" onclick="openModal();currentSlide(1)" alt="Castaway Cay" title="Disney Castaway Cay" style="width:25%;"></a>
             <a href="images/DSC00007_1_web.jpg"><img src="images/DSC00007_1_small.jpg" onclick="openModal();currentSlide(2)" alt="beach" title="beach water"></a>
-            <img src="images/IMG_0018_small.jpg" onclick="openModal();currentSlide(3)" alt="sunset" title="The Outerbanks Sunset">
+            <a href="images/IMG_0018_web.jpg"><img src="images/IMG_0018_small.jpg" onclick="openModal();currentSlide(3)" alt="sunset" title="The Outerbanks Sunset"></a>
             <img src="images/IMG_0527_small.jpg" onclick="openModal();currentSlide(4)" alt="arches" title="Mexico Arches">
             <img src="images/IMG_2303_small.jpg" onclick="openModal();currentSlide(5)" alt="palm trees" title="Beach with Palm Trees">
             <img src="images/IMG_5033_small.jpg" onclick="openModal();currentSlide(6)" alt="leaves" title="leaves">
@@ -83,14 +74,226 @@
     </div>
 
     <!-- The Modal/Lightbox -->
-    <!-- <div id="myModal" class="modal">
+    <div id="myModal" class="modal">
       <span class="close cursor" onclick="closeModal()">&times;</span>
 
       <div class="myPhotos">
-      <div class="numbertext">1 / 39</div>
-      <img src="images/Disney Cruise 2017-110_web.jpg" style="width:100%">
+        <div class="numbertext">1 / 39</div>
+          <img src="images/Disney Cruise 2017-110_web.jpg" style="width:100%">
+        </div>
+
+      <div class="myPhotos">
+        <div class="numbertext">2 / 39</div>
+          <img src="images/Disney Cruise 2017-110_web.jpg" style="width:100%">
+        </div>
+
+      <div class="myPhotos">
+        <div class="numbertext">3 / 39</div>
+          <img src="images/Disney Cruise 2017-110_web.jpg" style="width:100%">
+        </div>
+
+      <div class="myPhotos">
+        <div class="numbertext">4 / 39</div>
+          <img src="images/Disney Cruise 2017-110_web.jpg" style="width:100%">
+        </div>
+
+      <div class="myPhotos">
+        <div class="numbertext">5 / 39</div>
+          <img src="images/Disney Cruise 2017-110_web.jpg" style="width:100%">
+        </div>
+
+      <div class="myPhotos">
+        <div class="numbertext">6 / 39</div>
+          <img src="images/Disney Cruise 2017-110_web.jpg" style="width:100%">
+        </div>
+
+      <div class="myPhotos">
+        <div class="numbertext">7 / 39</div>
+          <img src="images/Disney Cruise 2017-110_web.jpg" style="width:100%">
+        </div>
+
+      <div class="myPhotos">
+        <div class="numbertext">8 / 39</div>
+          <img src="images/Disney Cruise 2017-110_web.jpg" style="width:100%">
+        </div>
+
+      <div class="myPhotos">
+        <div class="numbertext">9 / 39</div>
+          <img src="images/Disney Cruise 2017-110_web.jpg" style="width:100%">
+        </div>
+
+      <div class="myPhotos">
+        <div class="numbertext">10 / 39</div>
+          <img src="images/Disney Cruise 2017-110_web.jpg" style="width:100%">
+        </div>
+
+      <div class="myPhotos">
+        <div class="numbertext">11 / 39</div>
+          <img src="images/Disney Cruise 2017-110_web.jpg" style="width:100%">
+        </div>
+
+      <div class="myPhotos">
+        <div class="numbertext">12 / 39</div>
+          <img src="images/Disney Cruise 2017-110_web.jpg" style="width:100%">
+        </div>
+
+      <div class="myPhotos">
+        <div class="numbertext">13 / 39</div>
+          <img src="images/Disney Cruise 2017-110_web.jpg" style="width:100%">
+        </div>
+
+      <div class="myPhotos">
+        <div class="numbertext">14 / 39</div>
+          <img src="images/Disney Cruise 2017-110_web.jpg" style="width:100%">
+      </div>
+
+      <div class="myPhotos">
+        <div class="numbertext">15 / 39</div>
+          <img src="images/Disney Cruise 2017-110_web.jpg" style="width:100%">
+      </div>
+
+      <div class="myPhotos">
+        <div class="numbertext">16 / 39</div>
+          <img src="images/Disney Cruise 2017-110_web.jpg" style="width:100%">
+      </div>
+
+      <div class="myPhotos">
+        <div class="numbertext">17 / 39</div>
+          <img src="images/Disney Cruise 2017-110_web.jpg" style="width:100%">
+      </div>
+
+      <div class="myPhotos">
+        <div class="numbertext">18 / 39</div>
+          <img src="images/Disney Cruise 2017-110_web.jpg" style="width:100%">
+      </div>
+
+      <div class="myPhotos">
+        <div class="numbertext">19 / 39</div>
+          <img src="images/Disney Cruise 2017-110_web.jpg" style="width:100%">
+      </div>
+
+      <div class="myPhotos">
+        <div class="numbertext">20 / 39</div>
+          <img src="images/Disney Cruise 2017-110_web.jpg" style="width:100%">
+      </div>
+
+      <div class="myPhotos">
+        <div class="numbertext">21 / 39</div>
+          <img src="images/Disney Cruise 2017-110_web.jpg" style="width:100%">
+      </div>
+
+      <div class="myPhotos">
+        <div class="numbertext">22 / 39</div>
+          <img src="images/Disney Cruise 2017-110_web.jpg" style="width:100%">
+      </div>
+
+      <div class="myPhotos">
+        <div class="numbertext">23 / 39</div>
+          <img src="images/Disney Cruise 2017-110_web.jpg" style="width:100%">
+      </div>
+
+      <div class="myPhotos">
+        <div class="numbertext">24 / 39</div>
+          <img src="images/Disney Cruise 2017-110_web.jpg" style="width:100%">
+      </div>
+
+      <div class="myPhotos">
+        <div class="numbertext">25 / 39</div>
+          <img src="images/Disney Cruise 2017-110_web.jpg" style="width:100%">
+      </div>
+
+      <div class="myPhotos">
+        <div class="numbertext">26 / 39</div>
+          <img src="images/Disney Cruise 2017-110_web.jpg" style="width:100%">
+      </div>
+
+      <div class="myPhotos">
+        <div class="numbertext">27 / 39</div>
+          <img src="images/Disney Cruise 2017-110_web.jpg" style="width:100%">
+      </div>
+
+      <div class="myPhotos">
+        <div class="numbertext">28 / 39</div>
+          <img src="images/Disney Cruise 2017-110_web.jpg" style="width:100%">
+      </div>
+
+      <div class="myPhotos">
+        <div class="numbertext">29 / 39</div>
+          <img src="images/Disney Cruise 2017-110_web.jpg" style="width:100%">
+      </div>
+
+      <div class="myPhotos">
+        <div class="numbertext">30 / 39</div>
+          <img src="images/Disney Cruise 2017-110_web.jpg" style="width:100%">
+      </div>
+
+      <div class="myPhotos">
+        <div class="numbertext">31 / 39</div>
+          <img src="images/Disney Cruise 2017-110_web.jpg" style="width:100%">
+      </div>
+
+      <div class="myPhotos">
+        <div class="numbertext">32 / 39</div>
+          <img src="images/Disney Cruise 2017-110_web.jpg" style="width:100%">
+      </div>
+
+      <div class="myPhotos">
+        <div class="numbertext">33 / 39</div>
+          <img src="images/Disney Cruise 2017-110_web.jpg" style="width:100%">
+      </div>
+
+      <div class="myPhotos">
+        <div class="numbertext">34 / 39</div>
+          <img src="images/Disney Cruise 2017-110_web.jpg" style="width:100%">
+      </div>
+
+      <div class="myPhotos">
+        <div class="numbertext">35 / 39</div>
+          <img src="images/Disney Cruise 2017-110_web.jpg" style="width:100%">
+      </div>
+
+      <div class="myPhotos">
+        <div class="numbertext">36 / 39</div>
+          <img src="images/Disney Cruise 2017-110_web.jpg" style="width:100%">
+      </div>
+
+      <div class="myPhotos">
+        <div class="numbertext">37 / 39</div>
+          <img src="images/Disney Cruise 2017-110_web.jpg" style="width:100%">
+      </div>
+
+      <div class="myPhotos">
+        <div class="numbertext">38 / 39</div>
+          <img src="images/Disney Cruise 2017-110_web.jpg" style="width:100%">
+      </div>
+
+      <div class="myPhotos">
+        <div class="numbertext">39 / 39</div>
+          <img src="images/Disney Cruise 2017-110_web.jpg" style="width:100%">
+      </div>
     </div>
-</div> -->
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Thumbnail image controls -->
+    <div class="column">
+        <img class="demo" src="images/Disney Cruise 2017-110_small.jpg" onclick="currentSlide(1)" alt="Castaway Cay">
+      </div>
+
+    <div class="column">
+        <img class="demo" src="images/DSC00007_1_small.jpg" onclick="currentSlide(2)" alt="Beach">
+      </div>
+
+    <div class="column">
+        <img class="demo" src="images/IMG_0018_small.jpg" onclick="currentSlide(3)" alt="Sunset">
+      </div>
+
+    <div class="column">
+        <img class="demo" src="images/IMG_0527_small.jpg" onclick="currentSlide(4)" alt="Sunset">
+      </div>
+
       <footer>&copy; 2020 LeighAnn Brown</footer>
   </body>
 
