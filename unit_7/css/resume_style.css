@@ -4,6 +4,12 @@
 #FFFFFF - light cream
 #E2B4BD - light red
 #9B6A6C - red
+
+#373F51 - dark blue
+#A9BCD0 - blue
+#D8DBE2 - light blue
+#58A4B0 - teal
+#FFCAAF - pinkish
 */
 
 /*Global styles
@@ -26,7 +32,7 @@ body {
 }
 
 h1, h2 {
-    font-family: 'Caveat', cursive;
+    font-family: 'Archivo Black', sans-serif;
     font-weight: 400;
 }
 
@@ -88,9 +94,9 @@ header, footer {
 }
 
 /*header*/
-.profile-img {
+/* .profile-img {
     border-radius: 50%;
-}
+} */
 
 header {
     padding-top: 50px;
@@ -138,7 +144,7 @@ nav a {
 /* Work Experience
 -----------------------------*/
 .work{
-    background:#93A8AC;
+    background:#A9BCD0;
 }
 h3 ~ p {
     margin: 0;

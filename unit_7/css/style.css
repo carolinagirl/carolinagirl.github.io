@@ -51,9 +51,9 @@ p {
 }
 
 img {
-  float: left;
-  margin: .5em;
-  max-width: 100%;
+  /* float: left; */
+  /* margin: .5em;
+  max-width: 100%; */
   border-radius: 1em;
 }
 
@@ -125,24 +125,26 @@ nav a:active {
 
 .wrapper {
   background-color: #D8DBE2;
-  margin: 0 auto;
+
 }
 
 .main {
   padding: 2em;
-  width: 100%;
+  /* width: 100%; */
   position: relative;
-  /* left: 50%; */
+  max-width: 78%;
+  margin: 0 auto;
   /* display: grid; */
   /* grid-template-columns: repeat(3, 1fr); */
   /* grid-cap: 1em; */
 }
 
-.photography {
+.portfolio {
   color: #373F51;
   font-family: 'Archivo Black', sans-serif;
-  /* float: left; */
-  vertical-align: middle;
+  float: left;
+  width: 100%;
+  border: 1px black solid;
 }
 
 .clearfix:after {
