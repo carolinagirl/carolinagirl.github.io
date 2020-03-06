@@ -4,13 +4,11 @@
 #FFFFFF - light cream
 #E2B4BD - light red
 #9B6A6C - red
-
 #373F51 - dark blue
 #A9BCD0 - blue
 #D8DBE2 - light blue
 #58A4B0 - teal
 #FFCAAF - pinkish
-
 */
 
 @import url('https://fonts.googleapis.com/css?family=Archivo+Black|Crimson+Text&display=swap');
@@ -132,19 +130,30 @@ nav a:active {
   padding: 2em;
   /* width: 100%; */
   position: relative;
-  max-width: 78%;
+  width: 82%;
   margin: 0 auto;
-  /* display: grid; */
-  /* grid-template-columns: repeat(3, 1fr); */
-  /* grid-cap: 1em; */
 }
 
-.portfolio {
+.photography img {
+  float: left;
+  width: 30.33%;
+  margin: 1em;
+}
+
+.photography {
   color: #373F51;
   font-family: 'Archivo Black', sans-serif;
+}
+
+.design img {
   float: left;
-  width: 100%;
-  border: 1px black solid;
+  width: 30.33%;
+  margin: 1em;
+}
+
+.design {
+  color: #373F51;
+  font-family: 'Archivo Black', sans-serif;
 }
 
 .clearfix:after {
@@ -163,87 +172,4 @@ footer {
   font-family: 'Crimson Text', serif;
   background-color: #373F51;
   margin: 0 auto;
-}
-
-/* The Modal (background) */
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  padding-top: 100px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: black;
-}
-
-/* The Close Button */
-.close {
-  color: white;
-  position: absolute;
-  top: 10px;
-  right: 25px;
-  font-size: 35px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: #999;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-/* Hide the slides by default */
-.mySlides {
-  display: none;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-img.demo {
-  opacity: 0.6;
-}
-
-.active {
-  opacity: 1;
 }
