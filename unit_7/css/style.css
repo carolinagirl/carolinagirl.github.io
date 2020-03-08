@@ -109,6 +109,11 @@ nav a:active {
   filter:none;
 }
 
+a:gallery {
+  transform: none;
+  filer: none;
+}
+
 .cur-active-link {
   color: #A9BCD0;
   text-decoration: underline;
@@ -167,9 +172,21 @@ nav a:active {
 
 footer {
   color: white;
-  padding: 20px;
+  padding: 1em;
   text-align: center;
   font-family: 'Crimson Text', serif;
   background-color: #373F51;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 1377px){
+  .photography img {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 858px){
+  .photography img {
+    width: 100%;
+  }
 }
