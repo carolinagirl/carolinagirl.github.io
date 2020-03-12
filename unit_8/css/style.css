@@ -188,9 +188,11 @@ footer {
     width: 100%;
     margin: 1em;
   }
-
   nav a {
     font-size: 1em;
+  }
+  #logo {
+    width: 18%;
   }
 }
 
