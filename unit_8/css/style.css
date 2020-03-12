@@ -1,0 +1,211 @@
+/* Color Palette
+#373F51 - dark blue
+#A9BCD0 - blue
+#D8DBE2 - light blue
+#58A4B0 - teal
+#FFCAAF - pinkish
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Crimson+Text&display=swap');
+
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Crimson Text', serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-color: #FFFFFF;
+  margin: 0 auto;
+}
+
+/* h1 {
+  color: #A9BCD0;
+  font-size: 4em;
+  font-family: 'Archivo Black', sans-serif;
+  text-align: center;
+  margin-top: 0;
+} */
+
+p {
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  border-radius: 1em;
+}
+
+/* img:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  filter:grayscale(100%);
+} */
+
+nav {
+  text-align: center;
+  padding: .5em;
+  width: 100%;
+}
+
+nav a {
+  font-size: 1.25em;
+  margin: 1em;
+  color: #373F51;
+  text-decoration: none;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+nav a:hover {
+  color: #A9BCD0;
+}
+
+nav a:active {
+  color: #FFCAAF;
+  text-decoration: underline;
+}
+
+#centered-1 {
+  position: absolute;
+  top: 80%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
+#logo {
+  float: none;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+#logo:hover {
+  transform: none;
+  filter: none;
+}
+
+a:gallery {
+  transform: none;
+  filer: none;
+}
+
+.cur-active-link {
+  color: #A9BCD0;
+  text-decoration: underline;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrapper {
+  background-color: #D8DBE2;
+}
+
+.main {
+  padding: 2em;
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.photography img {
+  float: left;
+  width: 30.33%;
+  margin: 1em;
+}
+
+.photography {
+  color: #373F51;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+.hover:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  filter:grayscale(100%);
+}
+
+.design img {
+  float: left;
+  width: 30.33%;
+  margin: 1em;
+}
+
+.design-2 img {
+  float: left;
+  width: 40%;
+  margin: 2em;
+}
+
+.design {
+  color: #373F51;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  height: 0;
+  font-size: 0;
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+footer {
+  color: white;
+  padding: 1em;
+  text-align: center;
+  font-family: 'Crimson Text', serif;
+  background-color: #373F51;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 1377px){
+  .photography img {
+    width: 45%;
+  }
+  .design img {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 858px){
+  .photography img {
+    width: 100%;
+    margin: 1em;
+  }
+  .design img {
+    width: 100%;
+    margin: 1em;
+  }
+
+  nav a {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 1128px) {
+  .design-2 img {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 664px) {
+  .design-2 img {
+    width: 100%;
+    margin: .25em;
+  }
+  nav a {
+    font-size: 1em;
+  }
+}

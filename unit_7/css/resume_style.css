@@ -29,6 +29,7 @@ html {
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
+    font-size: 16px;
 }
 
 h1, h2 {
@@ -37,12 +38,12 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 5em;
 }
 
 
 h2 {
-    font-size: 40px;
+    font-size: 2.5em;
     margin-top: 0;
 }
 h3 {
@@ -51,27 +52,32 @@ h3 {
 
 a {
     Color:#E2B4BD;
-
 }
 
 a:hover {
     text-decoration:none;
 }
 
+img.profile-img {
+  width: 20%;
+}
+
 .content-wrap{
-    max-width:950px;
+    max-width:60%;
     margin: 0 auto;
-    padding: 60px 50px;
+    padding: 3.5% 2%;
     overflow: auto;
 }
+
 .col-narrow {
     width: 30%;
     float: left;
 }
+
 .col-wide {
     width:70%;
     float: left;
-    padding-left: 20px;
+    padding-left: 2%;
 }
 
 .uppercase {
@@ -82,14 +88,14 @@ a:hover {
     text-decoration: none;
     background-color: #E2B4BD;
     color: white;
-    padding: 10px;
+    padding: 1%;
     display: inline-block;
 }
 
 /* Header and footer
 -----------------------------*/
 header, footer {
-    background:#424B54;
+    background:#373F51;
     color:#FFFFFF;
 }
 
@@ -99,7 +105,7 @@ header, footer {
 } */
 
 header {
-    padding-top: 50px;
+    padding-top: 3.12%;
     position: relative;
 }
 
@@ -120,7 +126,7 @@ footer {
 }
 
 .contact-info a {
-    padding: 10px;
+    padding: 2%;
 }
 
 /* Navigation
@@ -132,11 +138,12 @@ nav {
     top: 0;
     width: 100%;
 }
+
 nav a {
     display: inline-block;
-    padding: 15px 20px;
+    padding: 1em 1.5em;
     text-decoration: none;
-    text-transform: uppercase;
+    font-family: 'Archivo Black', sans-serif;
     font-weight: 700;
 }
 
@@ -150,7 +157,7 @@ h3 ~ p {
     margin: 0;
 }
 .job-description {
-    margin-bottom: 25px;
+    margin-bottom: 1.5em;
 }
 .job-description p:first-of-type {
     margin-top: 0;
@@ -161,11 +168,33 @@ h3 ~ p {
 -----------------------------*/
 .education{
     /*background:#9B6A6C;*/
-    background: linear-gradient (rgba(155, 106, 108, 0.8), rgba(155, 106, 108, 0.5)),
+    /* background: linear-gradient (rgba(155, 106, 108, 0.8), rgba(155, 106, 108, 0.5)),
                 url(../images/raleigh.jpg) no-repeat fixed;
     background-size: cover;
-}
+} */
 
 p + h3 {
-    margin-top: 30px;
+    margin-top: 1.8em;
+}
+
+@media only screen and (max-width: 1380px) {
+  h1{
+    font-size: 3em;
+  }
+  .col-narrow {
+    wide: 15%;
+  }
+  .col-wide {
+    width: 55%;
+  }
+}
+
+@media only screen and (max-width: 1192px) {
+
+  .col-narrow {
+    float: none;
+  }
+  .col-wide {
+    float: none;
+  }
 }

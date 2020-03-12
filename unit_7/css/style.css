@@ -1,9 +1,4 @@
 /* Color Palette
-#424B54 - dark green
-#93A8AC - light green
-#FFFFFF - light cream
-#E2B4BD - light red
-#9B6A6C - red
 #373F51 - dark blue
 #A9BCD0 - blue
 #D8DBE2 - light blue
@@ -13,12 +8,9 @@
 
 @import url('https://fonts.googleapis.com/css?family=Archivo+Black|Crimson+Text&display=swap');
 
-html {
-  box-sizing: border-box;
-}
 
 *, *:before, *:after {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 body {
@@ -49,20 +41,16 @@ p {
 }
 
 img {
-  /* float: left; */
-  /* margin: .5em;
-  max-width: 100%; */
   border-radius: 1em;
 }
 
-img:hover {
+/* img:hover {
   transform: scale(1.1);
   transition: 1s;
   filter:grayscale(100%);
-}
+} */
 
 nav {
-  /* background-color: #FFCAAF; */
   text-align: center;
   padding: .5em;
   width: 100%;
@@ -96,17 +84,11 @@ nav a:active {
   float: none;
   margin-top: 2em;
   margin-bottom: 2em;
-  border-radius: none;
 }
 
 #logo:hover {
   transform: none;
   filter: none;
-}
-
-#noscale {
-  transform: scale(1.0);
-  filter:none;
 }
 
 a:gallery {
@@ -123,20 +105,18 @@ a:gallery {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  /* width: 50%; */
 }
 
 .wrapper {
   background-color: #D8DBE2;
-
 }
 
 .main {
   padding: 2em;
-  /* width: 100%; */
   position: relative;
-  width: 82%;
+  width: 90%;
   margin: 0 auto;
+  border: 1px solid black;
 }
 
 .photography img {
@@ -150,10 +130,22 @@ a:gallery {
   font-family: 'Archivo Black', sans-serif;
 }
 
+.hover:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  filter:grayscale(100%);
+}
+
 .design img {
   float: left;
   width: 30.33%;
   margin: 1em;
+}
+
+.design-2 img {
+  float: left;
+  width: 40%;
+  margin: 2em;
 }
 
 .design {
@@ -183,10 +175,38 @@ footer {
   .photography img {
     width: 45%;
   }
+  .design img {
+    width: 45%;
+  }
 }
 
 @media only screen and (max-width: 858px){
   .photography img {
     width: 100%;
+    margin: 1em;
+  }
+  .design img {
+    width: 100%;
+    margin: 1em;
+  }
+  
+  nav a {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 1128px) {
+  .design-2 img {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 664px) {
+  .design-2 img {
+    width: 100%;
+    margin: .25em;
+  }
+  nav a {
+    font-size: 1em;
   }
 }
