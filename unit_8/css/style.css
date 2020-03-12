@@ -196,6 +196,23 @@ footer {
   }
 }
 
+@media only screen and (max-width: 335px){
+  .photography img {
+    width: 100%;
+    margin: 1em;
+  }
+  .design img {
+    width: 100%;
+    margin: 1em;
+  }
+  nav a {
+    font-size: 1em;
+  }
+  #logo {
+    width: 18%;
+  }
+}
+
 @media only screen and (max-width: 1128px) {
   .design-2 img {
     width: 70%;
