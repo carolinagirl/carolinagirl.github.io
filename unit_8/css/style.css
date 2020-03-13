@@ -40,10 +40,6 @@ p {
   margin-right: auto;
 }
 
-img {
-  border-radius: 1em;
-}
-
 /* img:hover {
   transform: scale(1.1);
   transition: 1s;
@@ -170,6 +166,7 @@ footer {
   margin: 0 auto;
 }
 
+
 @media screen and (max-width: 1377px){
   .photography img {
     width: 45%;
@@ -224,5 +221,7 @@ footer {
     width: 100%;
     margin: .25em;
   }
-  
+  nav a {
+    font-size: 1em;
+  }
 }
