@@ -118,6 +118,7 @@ a:gallery {
   float: left;
   width: 30.33%;
   margin: 1em;
+  border-radius: 1em;
 }
 
 .photography {
@@ -135,12 +136,14 @@ a:gallery {
   float: left;
   width: 30.33%;
   margin: 1em;
+  border-radius: 1em;
 }
 
 .design-2 img {
   float: left;
   width: 40%;
   margin: 2em;
+  border-radius: 1em;
 }
 
 .design {
