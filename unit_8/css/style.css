@@ -170,7 +170,7 @@ footer {
   margin: 0 auto;
 }
 
-@media only screen and (max-width: 1377px){
+@media screen and (max-width: 1377px){
   .photography img {
     width: 45%;
   }
@@ -179,13 +179,13 @@ footer {
   }
 }
 
-@media only screen and (max-width: 859px){
+@media screen and (max-width: 859px){
   .photography img {
-    width: 100%;
+    width: 90%;
     margin: 1em;
   }
   .design img {
-    width: 100%;
+    width: 90%;
     margin: 1em;
   }
   nav a {
@@ -196,14 +196,14 @@ footer {
   }
 }
 
-@media only screen and (max-width: 335px){
+@media screen and (max-width: 335px){
   .photography img {
     width: 100%;
-    margin: 1em;
+    margin: .5em;
   }
   .design img {
     width: 100%;
-    margin: 1em;
+    margin: .5em;
   }
   nav a {
     font-size: 1em;
@@ -213,13 +213,13 @@ footer {
   }
 }
 
-@media only screen and (max-width: 1128px) {
+@media screen and (max-width: 1128px) {
   .design-2 img {
     width: 70%;
   }
 }
 
-@media only screen and (max-width: 664px) {
+@media screen and (max-width: 664px) {
   .design-2 img {
     width: 100%;
     margin: .25em;

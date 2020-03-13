@@ -178,3 +178,9 @@ h3 ~ p {
 p + h3 {
     margin-top: 30px;
 }
+
+@media screen and (max-width: 1381px) {
+    .col-wide: {
+      float: none;
+    }
+}
