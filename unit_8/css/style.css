@@ -108,16 +108,17 @@ a:gallery {
 }
 
 .main {
-  padding: 2em;
+  padding: 1em;
   position: relative;
-  width: 90%;
+  max-width: 1400px;
   margin: 0 auto;
+  border: 1px solid black;
 }
 
 .photography img {
   float: left;
   width: 30.33%;
-  margin: 1em;
+  margin: 1.5%;
   border-radius: 1em;
 }
 
@@ -135,14 +136,14 @@ a:gallery {
 .design img {
   float: left;
   width: 30.33%;
-  margin: 1em;
+  margin: 1.5%;
   border-radius: 1em;
 }
 
 .design-2 img {
   float: left;
-  width: 40%;
-  margin: 2em;
+  width: 49%;
+  margin: .5%;
   border-radius: 1em;
 }
 
