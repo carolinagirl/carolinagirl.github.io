@@ -1,10 +1,4 @@
 /* Color Palette
-#424B54 - dark green
-#93A8AC - light green
-#FFFFFF - light cream
-#E2B4BD - light red
-#9B6A6C - red
-
 #373F51 - dark blue
 #A9BCD0 - blue
 #D8DBE2 - light blue
@@ -37,9 +31,9 @@ h1, h2 {
     font-weight: 400;
 }
 
-h1 {
+/* h1 {
     font-size: 5em;
-}
+} */
 
 
 h2 {
@@ -59,11 +53,11 @@ a:hover {
 }
 
 .content-wrap{
-    max-width:1200px;
+    max-width:1400px;
     margin: 0 auto;
     padding: 3.5% 2%;
     overflow: auto;
-    border: 1px solid black;
+    border: 1px solida black;
 }
 .col-narrow {
     width: 30%;
@@ -75,8 +69,10 @@ a:hover {
     padding-left: 2%;
 }
 
-.profile-img {
-  /* width: 15%; */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .uppercase {
@@ -91,21 +87,22 @@ a:hover {
     display: inline-block;
 }
 
+#logo {
+  float: none;
+  /* margin-top: .5em; */
+  margin-bottom: 2em;
+}
+
+#logo:hover {
+  transform: none;
+  filter: none;
+}
 
 /* Header and footer
 -----------------------------*/
-header, footer {
-    background:#424B54;
-    color:#FFFFFF;
-}
-
-/*header*/
-/* .profile-img {
-    border-radius: 50%;
-} */
-
 header {
     padding-top: 3.12%;
+    padding-bottom: 3.12%;
     position: relative;
 }
 
@@ -123,6 +120,8 @@ header h1, header h2 {
 /*footer*/
 footer {
     text-align: center;
+    background:#373F51;
+    color:#FFFFFF;
 }
 
 .contact-info a {
@@ -133,18 +132,16 @@ footer {
 -----------------------------*/
 nav {
     text-align: center;
-    background: white;
-    position: fixed;
-    top: 0;
+    padding: .5em;
     width: 100%;
 }
 
 nav a {
-    display: inline-block;
-    padding: 1em 1.5em;
-    text-decoration: none;
-    font-family: 'Archivo Black', sans-serif;
-    font-weight: 700;
+  font-size: 1.25em;
+  margin: 1em;
+  color: #373F51;
+  text-decoration: none;
+  font-family: 'Archivo Black', sans-serif;
 }
 
 
@@ -180,36 +177,17 @@ p + h3 {
     margin-top: 30px;
 }
 
-@media screen and (max-width: 925px) {
-  .content-wrap{
-      padding: 5% 2%;
+@media screen and (max-width: 644px) {
+  h2{
+    font-size: 1.75em;
   }
-}
-
-@media screen and (max-width: 808px) {
-  .content-wrap{
-      padding: 8% 4%;
+  .col-narrow {
+      width: 20%;
+      float: none;
   }
-  h1 {
-    font-size: 4em;
-  }
-  h2 {
-    font-size: 2em;
-  }
-}
-
-@media screen and (max-width: 773px) {
-  .content-wrap{
-      padding: 8% 4%;
-  }
-  h1 {
-    font-size: 3em;
-  }
-  h2 {
-    font-size: 1.5em;
-  }
-  .profile-img {
-    width: 20%;
-    margin-top: 4em;
+  .col-wide {
+      width:60%;
+      float: none;
+      padding-left: 1%;
   }
 }

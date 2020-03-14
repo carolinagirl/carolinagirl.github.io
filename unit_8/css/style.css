@@ -23,6 +23,7 @@ body {
 header {
   background-color: #FFFFFF;
   margin: 0 auto;
+  padding: 3.12%
 }
 
 p {
@@ -64,18 +65,12 @@ nav a:active {
 
 #logo {
   float: none;
-  margin-top: 2em;
   margin-bottom: 2em;
 }
 
 #logo:hover {
   transform: none;
   filter: none;
-}
-
-a:gallery {
-  transform: none;
-  filer: none;
 }
 
 .cur-active-link {
