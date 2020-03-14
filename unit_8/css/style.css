@@ -25,26 +25,12 @@ header {
   margin: 0 auto;
 }
 
-/* h1 {
-  color: #A9BCD0;
-  font-size: 4em;
-  font-family: 'Archivo Black', sans-serif;
-  text-align: center;
-  margin-top: 0;
-} */
-
 p {
   width: 70%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-
-/* img:hover {
-  transform: scale(1.1);
-  transition: 1s;
-  filter:grayscale(100%);
-} */
 
 nav {
   text-align: center;
@@ -112,7 +98,6 @@ a:gallery {
   position: relative;
   max-width: 1400px;
   margin: 0 auto;
-  border: 1px solid black;
 }
 
 .photography img {
@@ -142,8 +127,8 @@ a:gallery {
 
 .design-2 img {
   float: left;
-  width: 49%;
-  margin: .5%;
+  width: 48%;
+  margin: .75%;
   border-radius: 1em;
 }
 
