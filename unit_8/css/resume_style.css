@@ -76,7 +76,7 @@ a:hover {
 }
 
 .profile-img {
-  width: 15%;
+  /* width: 15%; */
 }
 
 .uppercase {
@@ -180,7 +180,7 @@ p + h3 {
     margin-top: 30px;
 }
 
-@media screen and (max-width: 924px) {
+@media screen and (max-width: 925px) {
   .content-wrap{
       padding: 5% 2%;
   }
@@ -191,6 +191,25 @@ p + h3 {
       padding: 8% 4%;
   }
   h1 {
+    font-size: 4em;
+  }
+  h2 {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 773px) {
+  .content-wrap{
+      padding: 8% 4%;
+  }
+  h1 {
     font-size: 3em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  .profile-img {
+    width: 20%;
+    margin-top: 4em;
   }
 }
