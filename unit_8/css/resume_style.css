@@ -13,11 +13,9 @@
 
 @import url('https://fonts.googleapis.com/css?family=Archivo+Black|Crimson+Text&display=swap');
 
-html {
-  box-sizing: border-box;
-}
+
 *, *:before, *:after {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 body {
@@ -40,6 +38,7 @@ h2 {
     font-size: 2.5em;
     margin-top: 0;
 }
+
 h3 {
     margin: 0;
 }
@@ -57,8 +56,8 @@ a:hover {
     margin: 0 auto;
     padding: 3.5% 2%;
     overflow: auto;
-    border: 1px solida black;
 }
+
 .col-narrow {
     width: 30%;
     float: left;
@@ -93,17 +92,14 @@ a:hover {
   margin-bottom: 2em;
 }
 
-#logo:hover {
-  transform: none;
-  filter: none;
-}
+
 
 /* Header and footer
 -----------------------------*/
 header {
     padding-top: 3.12%;
     padding-bottom: 3.12%;
-    position: relative;
+    /* position: relative; */
 }
 
 /* header h1, header h2 {
@@ -167,11 +163,6 @@ h3 ~ p {
 /* Education
 -----------------------------*/
 .education{
-    /*background:#9B6A6C;*/
-    /* background: linear-gradient (rgba(155, 106, 108, 0.8), rgba(155, 106, 108, 0.5)),
-                url(../images/raleigh.jpg) no-repeat fixed;
-    background-size: cover;
-} */
 
 p + h3 {
     margin-top: 30px;
@@ -190,6 +181,9 @@ p + h3 {
       float: none;
       padding-left: 1%;
   }
+  nav a {
+    font-size: 1em;
+  }
 }
 
 @media screen and (max-width: 525px) {
@@ -205,6 +199,7 @@ p + h3 {
       float: none;
       padding-left: 1%;
   }
+
   #logo {
     width: 25%;
   }
