@@ -222,3 +222,21 @@ p + h3 {
     width: 25%;
   }
 }
+
+@media screen and (max-width: 335px) {
+  h2{
+    font-size: 1em;
+  }
+  .col-narrow {
+      width: 10%;
+      float: none;
+  }
+  .col-wide {
+      width:90%;
+      float: none;
+      padding-left: 1%;
+  }
+  #logo {
+    width: 18%;
+  }
+}
