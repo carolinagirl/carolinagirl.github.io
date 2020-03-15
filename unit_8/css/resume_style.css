@@ -239,4 +239,7 @@ p + h3 {
   #logo {
     width: 18%;
   }
+  nav a{
+    font-size: 1em;
+  }
 }
