@@ -168,11 +168,6 @@ p + h3 {
     margin-top: 30px;
 }
 
-@media screen and (max-width: 644px) {
-  h2{
-    font-size: 2em;
-  }
-}
 
 @media screen and (max-width: 534px) {
   h2{
@@ -180,15 +175,13 @@ p + h3 {
   }
   .col-narrow {
       width: 20%;
-      float: none;
   }
   .col-wide {
       width:80%;
-      float: none;
       padding-left: 1%;
   }
   #logo {
-    width: 18%;
+    width: 5em;
   }
 }
 
@@ -198,11 +191,9 @@ p + h3 {
   }
   .col-narrow {
       width: 10%;
-      float: none;
   }
   .col-wide {
       width:90%;
-      float: none;
       padding-left: 1%;
   }
 }
