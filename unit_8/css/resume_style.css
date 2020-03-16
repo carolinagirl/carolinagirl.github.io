@@ -47,9 +47,10 @@ a {
     Color:#E2B4BD;
 }
 
-a:hover {
+/* a:hover {
     text-decoration:none;
-}
+    color: #A9BCD0;
+} */
 
 .content-wrap{
     max-width:1400px;
@@ -109,7 +110,7 @@ header {
 
 .download {
     position: absolute;
-    bottom: 0;
+    bottom: 527px;
     right: 0;
 }
 
@@ -140,6 +141,19 @@ nav a {
   font-family: 'Archivo Black', sans-serif;
 }
 
+nav a:hover {
+  color: #A9BCD0;
+}
+
+nav a:active {
+  color: #FFCAAF;
+  text-decoration: underline;
+}
+
+.cur-active-link {
+  color: #A9BCD0;
+  text-decoration: underline;
+}
 
 /* Work Experience
 -----------------------------*/
@@ -188,7 +202,6 @@ p + h3 {
 
 
 @media screen and (max-width: 335px) {
-  }
   nav a{
     font-size: 1em;
   }
