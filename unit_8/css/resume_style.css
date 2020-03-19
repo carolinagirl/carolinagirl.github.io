@@ -29,11 +29,6 @@ h1, h2 {
     font-weight: 400;
 }
 
-/* h1 {
-    font-size: 5em;
-} */
-
-
 h2 {
     font-size: 2.5em;
     margin-top: 0;
@@ -46,11 +41,6 @@ h3 {
 a {
     Color:#E2B4BD;
 }
-
-/* a:hover {
-    text-decoration:none;
-    color: #A9BCD0;
-} */
 
 .content-wrap{
     max-width:1400px;
@@ -89,10 +79,8 @@ a {
 
 #logo {
   float: none;
-  /* margin-top: .5em; */
   margin-bottom: 2em;
 }
-
 
 
 /* Header and footer
@@ -102,11 +90,6 @@ header {
     padding-bottom: 3.12%;
     /* position: relative; */
 }
-
-/* header h1, header h2 {
-    color:#FFFFFF;
-    margin: 0;
-} */
 
 .download {
     position: absolute;
@@ -179,7 +162,7 @@ h3 ~ p {
 .education {
 p + h3 {
     margin-top: 30px;
-}
+  }
 }
 
 @media screen and (max-width: 535px) {

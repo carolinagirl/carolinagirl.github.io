@@ -26,13 +26,6 @@ header {
   padding: 3.12%
 }
 
-/* p {
-  width: 70%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-} */
-
 nav {
   text-align: center;
   padding: .5em;
@@ -120,6 +113,14 @@ nav a:active {
   border-radius: 1em;
 }
 
+.design-3 img {
+  float: left;
+  width: 50%;
+  margin-left: 23.75%;
+  margin-top: 1%;
+  border-radius: 1em;
+}
+
 .design {
   color: #373F51;
   font-family: 'Archivo Black', sans-serif;
@@ -143,6 +144,125 @@ footer {
   margin: 0 auto;
 }
 
+/* Resume */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    font-size: 16px;
+}
+
+h1, h2 {
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-top: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+a {
+    Color:#E2B4BD;
+}
+
+.content-wrap{
+    max-width:1400px;
+    margin: 0 auto;
+    padding: 3.5% 2%;
+    overflow: auto;
+}
+
+.col-narrow {
+    width: 30%;
+    float: left;
+}
+.col-wide {
+    width:70%;
+    float: left;
+    padding-left: 2%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #E2B4BD;
+    color: white;
+    padding: 1%;
+    display: inline-block;
+}
+
+#logo {
+  float: none;
+  margin-bottom: 2em;
+}
+
+
+/* Header and footer
+-----------------------------*/
+header {
+    padding-top: 3.12%;
+    padding-bottom: 3.12%;
+}
+
+.download {
+    position: absolute;
+    bottom: 527px;
+    right: 0;
+}
+
+/*footer*/
+footer {
+    text-align: center;
+    background:#373F51;
+    color:#FFFFFF;
+}
+
+.contact-info a {
+    padding: 2%;
+}
+
+
+/* Work Experience
+-----------------------------*/
+.work{
+    background:#A9BCD0;
+}
+
+h3 ~ p {
+    margin: 0;
+}
+
+.job-description {
+    margin-bottom: 1.5em;
+}
+
+.job-description p:first-of-type {
+    margin-top: 0;
+}
+
+
+/* Education
+-----------------------------*/
+.education {
+p + h3 {
+    margin-top: 30px;
+  }
+}
+
 
 @media screen and (max-width: 1377px){
   .photography img {
@@ -150,6 +270,12 @@ footer {
   }
   .design img {
     width: 45%;
+  }
+}
+
+@media screen and (max-width: 1128px) {
+  .design-2 img {
+    width: 70%;
   }
 }
 
@@ -170,6 +296,34 @@ footer {
   }
 }
 
+@media screen and (max-width: 664px) {
+  .design-2 img {
+    width: 100%;
+    margin: .25em;
+  }
+  nav a {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 535px) {
+  h2{
+    font-size: 2.25em;
+  }
+  .col-narrow {
+      width: 100%;
+      float:none;
+  }
+  .col-wide {
+      width:100%;
+      float:none;
+      padding-left: 1%;
+  }
+  #logo {
+    width: 25%;
+  }
+}
+
 @media screen and (max-width: 335px){
   .photography img {
     width: 100%;
@@ -178,22 +332,6 @@ footer {
   .design img {
     width: 100%;
     margin: .5em;
-  }
-  nav a {
-    font-size: 1em;
-  }
-}
-
-@media screen and (max-width: 1128px) {
-  .design-2 img {
-    width: 70%;
-  }
-}
-
-@media screen and (max-width: 664px) {
-  .design-2 img {
-    width: 100%;
-    margin: .25em;
   }
   nav a {
     font-size: 1em;
