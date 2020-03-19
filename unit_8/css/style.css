@@ -220,7 +220,7 @@ header {
 
 .download {
     position: absolute;
-    bottom: 527px;
+    bottom: auto;
     right: 0;
 }
 
