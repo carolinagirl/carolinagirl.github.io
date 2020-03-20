@@ -174,8 +174,15 @@ p + h3 {
   }
 }
 
-@media screen and (max-width: 357px){
+@media screen and (max-width: 375px){
   nav a {
     font-size: 1em;
+  }
+  h1{
+    size: 3.5em;
+  }
+  .profile-img {
+    width: 50%;
+    margin: 0 auto;
   }
 }
