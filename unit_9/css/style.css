@@ -257,10 +257,11 @@ h3 ~ p {
 
 /* Education
 -----------------------------*/
+.education {
 p + h3 {
     margin-top: 30px;
   }
-
+}
 
 
 @media screen and (max-width: 1377px){
@@ -323,8 +324,24 @@ p + h3 {
   #logo {
     width: 25%;
   }
+
+  .download {
+      position: absolute;
+      bottom: 65%;
+  }
 }
 
+@media screen and (max-width: 470px) {
+  .download {
+      bottom: 68%;
+  }
+}
+
+@media screen and (max-width: 436px) {
+  .download {
+      bottom: 95%;
+  }
+}
 
 @media screen and (max-width: 357px){
   .photography img {
@@ -341,4 +358,7 @@ p + h3 {
     font-size: 1em;
   }
 
+  .download {
+      bottom: 95%;
+  }
 }

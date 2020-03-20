@@ -1,0 +1,181 @@
+/* Color Palette
+#424B54 - dark green
+#93A8AC - light green
+#FFFFFF - light cream
+#E2B4BD - light red
+#9B6A6C - red
+*/
+
+/*Global styles
+-------------------------*/
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+h1, h2 {
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+
+h2 {
+    font-size: 2.5em;
+    margin-top: 0;
+}
+h3 {
+    margin: 0;
+}
+
+a {
+    Color:#E2B4BD;
+
+}
+
+a:hover {
+    text-decoration:none;
+}
+
+.content-wrap{
+    max-width:1400px;
+    margin: 0 auto;
+    padding: 3.5% 2%;
+    overflow: auto;
+}
+.col-narrow {
+    width: 30%;
+    float: left;
+}
+.col-wide {
+    width:70%;
+    float: left;
+    padding-left: 2%;
+}
+.profile-img {
+  width: auto;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #E2B4BD;
+    color: white;
+    padding: 1%;
+    display: inline-block;
+}
+
+/* Header and footer
+-----------------------------*/
+header, footer {
+    background:#424B54;
+    color:#FFFFFF;
+}
+
+/*header*/
+
+header {
+    padding-top: 50px;
+    position: relative;
+}
+
+header h1, header h2 {
+    color:#FFFFFF;
+    margin: 0;
+}
+
+.download {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/*footer*/
+footer {
+    text-align: center;
+}
+
+.contact-info a {
+    padding: 10px;
+}
+
+/* Navigation
+-----------------------------*/
+nav {
+    text-align: center;
+    background: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+/* Work Experience
+-----------------------------*/
+.work{
+    background:#93A8AC;
+}
+h3 ~ p {
+    margin: 0;
+}
+.job-description {
+    margin-bottom: 25px;
+}
+.job-description p:first-of-type {
+    margin-top: 0;
+}
+
+
+/* Education
+-----------------------------*/
+p + h3 {
+    margin-top: 30px;
+  }
+
+
+@media screen and (max-width: 408px) {
+  h1{
+    size: 4em;
+  }
+}
+
+@media screen and (max-width: 393px) {
+  .col-narrow {
+      width: 100%;
+      float:none;
+  }
+  .col-wide {
+      width:100%;
+      float:none;
+      padding-left: 1%;
+  }
+}
+
+@media screen and (max-width: 357px){
+  nav a {
+    font-size: 1em;
+  }
+}
