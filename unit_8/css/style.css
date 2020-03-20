@@ -359,6 +359,6 @@ p + h3 {
   }
 
   .download {
-      bottom: 0;
+      bottom: 95%;
   }
 }
